@@ -1,0 +1,18 @@
+@charset "utf-8";
+@media only screen and (min-width: 1280px) {
+		.header {
+				height: 80px;
+		}
+		.work-modal .close, .work-modal .tabs {
+				margin: 32px;
+		}
+		.work-modal .work-descr .prev, .work-modal .work-descr .next {
+				margin: 30px;
+		}
+		.work-modal .work-descr {
+				padding: 32px;
+		}
+		.page-cover .text {
+				font-size: 64px;
+		}
+}

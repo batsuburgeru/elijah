@@ -1,0 +1,46 @@
+@charset "utf-8";
+@media only screen and (min-width: 768px) {
+		body {
+				font-size: 14px;
+				line-height: 17px;
+		}
+		.header {
+				height: 51px;
+		}
+		.index-view {
+				gap: 8px 40px;
+		}
+		.toggle-menu {
+				margin-left: 32px;
+		}
+		.page-cover .text {
+				font-size: 48px;
+		}
+		@media only screen and (max-width: 1023px) {
+				.work-modal {
+						flex-direction: column;
+				}
+				.work-modal .image {
+						transform: translate3d(0, -100%, 0);
+				}
+				.work-modal input#modal-work-all:checked ~ .image {
+						padding: 110px 20px 0 20px;
+				}
+				.work-modal input#modal-work-all:not(:checked) ~ .image {
+						padding-left: 104px;
+						padding-right: 104px;
+				}
+				.work-modal input#modal-work-all:not(:checked) ~ .tabs {
+						flex-direction: column;
+				}
+				.work-modal .work-descr {
+						min-height: 350px;
+						padding: 24px 40px 20px 40px;
+				}
+		}
+		.modal-help .center {
+				font-size: 96px;
+				margin-top: 50px;
+				margin-bottom: 110px;
+		}
+}

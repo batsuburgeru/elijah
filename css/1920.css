@@ -1,0 +1,27 @@
+@charset "utf-8";
+@media only screen and (min-width: 1440px) {
+		body {
+				font-size: 16px;
+				line-height: 19px;
+		}
+		.menu, .index-view {
+				gap: 8px 56px;
+		}
+		.page-cover .text {
+				font-size: 100px;
+		}
+		.modal-help {
+				width: 1020px;
+				font-size: 16px;
+				line-height: 19px;
+				padding: 20px;
+		}
+		.modal-help .close {
+				margin: 20px;
+		}
+		.modal-help .center {
+				font-size: 144px;
+				margin-top: 80px;
+				margin-bottom: 170px;
+		}
+}
